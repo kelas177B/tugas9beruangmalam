@@ -98,9 +98,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							 2. Monoalphabetic substitution <br>
 							 3. Polyalphabetic substitution (the Vigenere cipher) <br>
 							 4. Transposition ciphers <br>
-							 Sebagai contohnya adalah Vigenere Cipher merupakan pengembangan dari Caesar Cipher merupakan metode menyandikan teks alfphabet dengan menggunakan sederetan sandi caesar berdasarkan huruf huruf pada kata kunci. Jadi penyandian dengan metode ini juga 
-							 sudah menggunakan kunci.Enkripsi (penyandian) dengan sandi Vigenere dapat ditulis secara matematis, dengan menggunakan penjumlahan dan operasi modulus dan dekripsi, yaitu: <br> 
-							 Keteranga n : Ci adalah huruf ke-i pada teks tersandi, Pi adalah huruf ke-i pada teks terang, Ki adalah huruf ke-i pada kata kunci, dan mod adalah operasi modulus (sisa pembagian).
+							 1. Sebagai contohnya adalah Vigenere Cipher merupakan pengembangan dari Caesar Cipher merupakan metode menyandikan teks alfphabet dengan menggunakan sederetan sandi caesar 
+							 berdasarkan huruf huruf pada kata kunci. Jadi penyandian dengan metode ini juga sudah menggunakan kunci.Enkripsi (penyandian) dengan sandi Vigenere dapat ditulis secara matematis,
+							 dengan menggunakan penjumlahan dan operasi modulus dan dekripsi, yaitu: <br> 
+							 Keterangan : Ci adalah huruf ke-i pada teks tersandi, Pi adalah huruf ke-i pada teks terang, Ki adalah huruf ke-i pada kata kunci, dan mod adalah operasi modulus (sisa pembagian).
+							 2. Dalam rangka mengatasi kelemahan caesar cipher maka lahirlah Monoalphabetic cipher ialah jenis cipher yang mengganti setiap alphabet dalam teks biasa dengan alphabet lain kecuali alphabet asli 
+							 Misalnya : huruf A bisa diganti alphabet lain mulai dari huruf B hinggan Z, Huruf B dapat diganti alphabet A atau C hingga Z dan seterusnya
+							 Perbedaan Monoalphabetic Cipher Vs Caesar Cipher jenis cipher melakukan substitusi acak dan membuat sebanyak mungkin permutasi dan kombinasi yang tersedia 
+							 agar informasi atau data yang ingin disampaikan tidak mudah dipecahkan oleh pihak lain selain penerima
+							 3. Polyalphabetic substitution adalah metode enkripsi teks alfabet menggunakan beberapa huruf substitusi. Metode ini dapat dilakukan dengan menggunakan Vigenere square atau tabel Vigenere.
+							 Tabel Vigenere sendiri berisi 26 huruf yang ditulis pada baris yang berbeda, dan setiap alfabet akan digeser ke kiri secara siklis sesuai dengan alfabet sebelumnya. Tabel ini setara dengan 26 kemungkinan pada Caesar cipher.
+							 Contoh : Misalkan kamu memiliki teks asli tulisan EDUCBA dengan kata kunci Apple, maka untuk proses enkripsi huruf E akan dipasangkan dengan huruf A sebagai huruf pertama dari kunci. 
+							 Kamu hanya perlu menggunakan baris E dan kolom A dari tabel Vigenere, yaitu huruf E. Nantinya, sisa teks asli dari EDUCBA akan dienkripsi menjadi ESJNFA.
+							 4.Chiper Transposition plainteks tetap sama tetapi urutan nya diubah dengan kata lain, algoritma ini melakukan tranpose terhadap rangkaian karakter didalam teks 
+							 Nama lain untuk metode ini adalah permutasi, karena tranpose setiap karakter didalam teks sama dengan mempermutasikan karakter-karakter tersebut 
+							 Contoh : Cipher Transposition : a. Simple Columnar Transposition ( STR ) Simple Columnar Transpotion ( STR ) dibuat sekitar tahun 1940an, Pada waktu itu SCTR digunakan oleh Sekutu untuk menandingi alat kriptografi buatan Jerman enigma 
+							 Untuk menjaga kerahasiaan pesan yang dikirimkan pada Perang Dunia II
+							 Metode enkripsi SCTR adalah cukup sederhana, yaitu dengan membagi plainteks menjadi blok-blok dengan panjang kunci (k) tertentu yang kemudian blok-blok tersebut disusun dalam bentuk baris dan kolom
+							 Terdapat dua metode yang digunakan apabila panjang plainteks (n) tidak habis dibagi oleh kunci (k). 
+                                                         Pertama adalah irregular case, yaitu melakukan enkripsi tanpa merubah plainteks dan yang 
+							 Kedua adalah regular case yaitu melakukan enkripsi setelah menambahkan karakter-karakter dummy (pad) sebanyak d dengan 0<d<n                           
 							 </p>
 						 <a href="single.html"><span></span>READ MORE</a>
 						 </div>
